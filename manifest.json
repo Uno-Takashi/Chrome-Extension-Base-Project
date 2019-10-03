@@ -1,0 +1,21 @@
+{
+  "name": "Base Project",
+  "description": "Base Project on Google Extension",
+  "version": "1.0",
+  "background": {
+    "scripts": [ "js/background.js" ]
+  },
+  "content_scripts": [
+    {
+      "matches": [ ],
+      "js": [ "js/jquery-3.3.1.js", "js/content.js" ]
+    }
+  ],
+  "permissions": [ "activeTab" ],
+  "icons": {
+    "16": "icon/icon16.png",
+    "48": "icon/icon48.png",
+    "128": "icon/icon128.png"
+  },
+  "manifest_version": 2
+}
