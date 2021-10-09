@@ -17,6 +17,6 @@ jobs:
           zip -r extension.zip chrome-extension-base-project 
       - name : Store 
         uses : actions/upload-artifact@v2w
-          with:
-            name: my-artifact
-            path: extension.zip
+        with:
+          name: my-artifact
+          path: extension.zip
