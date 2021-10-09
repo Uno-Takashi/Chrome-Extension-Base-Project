@@ -16,7 +16,7 @@ jobs:
         run: |
           zip -r extension.zip chrome-extension-base-project 
       - name : Store 
-        uses : actions/upload-artifact@v2w
+        uses : actions/upload-artifact@v2
         with:
           name: my-artifact
           path: extension.zip
