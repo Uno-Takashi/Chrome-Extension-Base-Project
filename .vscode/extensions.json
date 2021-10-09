@@ -1,0 +1,9 @@
+{
+    "recommendations": [
+        "ms-vscode.vscode-typescript-next",
+        "ms-vscode.vscode-typescript-tslint-plugin",
+        "zainchen.json",
+        "yzhang.markdown-all-in-one",
+        "ecmel.vscode-html-css"
+    ]
+}
